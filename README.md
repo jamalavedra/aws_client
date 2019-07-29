@@ -4,3 +4,10 @@ Simple S3 AWS client that allows to:
 * Upload objects to a certain bucket.
 * List buckets.
 * List objects in a bucket.
+
+Yoy must include a file called keys.csv with the following format:
+''
+    keys.csv
+    AWSAccessKeyId=XXXX
+    AWSSecretKey=XXXX
+''
